@@ -1,0 +1,73 @@
+.addusers {
+    height: 89vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addusers .left {
+    width: 60%;
+    height: 89vh;
+    background-color: #E4C4FF;
+    border-radius: 0 100% 0 0;
+}
+.addusers .rigt h1{
+    position: absolute;
+    text-transform: capitalize;
+    font-size: 50px;
+    top: 15vh;
+}
+.addusers .rigt h1::first-letter{
+   color: orange;
+   font-size: 60px;
+}
+
+.addusers .form {
+    position: absolute;
+    height: 70vh;
+    width: 30%;
+    top: 20vh;
+    left: 40vh;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addusers input {
+    display: block;
+    height: 5vh;
+    width: 50vh;
+    text-transform: capitalize;
+    margin: 20px 0;
+    padding-left: 15px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: solid 2px darkblue;
+}
+
+.addusers input:focus {
+    border: solid 3px orange;
+    border-radius: 50px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: inset 3px 2px 0px #bebebe,
+        inset -20px -40px 0px #ffffff;
+}
+.addusers button{
+    width: 20vh;
+    height: 6vh;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    color:darkmagenta;
+    font-weight: bolder;
+}

@@ -1,0 +1,123 @@
+.books {
+    width: 100%;
+    background: radial-gradient(#5433ff, #20bdff);
+}
+
+.books {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.books .cards {
+    height: 40vh;
+    width: 60vh;
+    margin: 50px 30px;
+    background: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.486);
+    transition: all 4s initial inherit;
+    cursor: pointer;
+    display: flex;
+}
+
+.books .cards:hover {
+    background: linear-gradient(#54e38d33, #41c7ae3f);
+    transform: scale(1.12);
+}
+
+.books .i {
+    height: 30vh;
+    width: 20vh;
+    margin: 20px;
+    border-radius: 0px;
+    background: #2690c5;
+    box-shadow: inset 5px 5px 10px #1b688e,
+        inset -5px -5px 10px #31b8fc;
+}
+
+
+.books img {
+    height: 100%;
+    width: 100%;
+}
+.books .i span{
+    position: absolute;
+    bottom: 10px;
+    left: 5vh;
+    font-size: 18px;
+    color: white;
+}
+.books .t {
+    height: 40vh;
+    width: 80%;
+}
+
+.books .tt {
+    width: 90%;
+    margin: 30px 10px 0 15px;
+    color: floralwhite;
+    font-size: 20px;
+
+}
+.books .no{
+    margin: 20px 10px 0 15px; 
+    color:ivory;
+}
+.books .a {
+    width: 90%;
+    margin: 10px 10px 0 15px;
+    color: black;
+    font-size: 15px;
+}
+
+.books .a span {
+    color: honeydew;
+    text-align: justify;
+}
+
+.books .but {
+    margin: 50px 20px;
+}
+
+.books .r button,
+.books .d button {
+    height: 6vh;
+    width: 15vh;
+    border: none;
+    border-radius: 0px;
+    font-size: 20px;
+
+    background: linear-gradient(145deg, #299ad3, #2282b1);
+    box-shadow: 5px 5px 10px #1b688e,
+        -5px -5px 10px #31b8fc;
+}
+
+.books .r button:active,
+.books .d button:active{
+    transform: scale(1.01);
+}
+
+
+.books .r button {
+    color: lightgreen;
+    margin: 0 10px 0 0;
+}
+.books .r button:hover{
+   
+    color: white;
+}
+
+.books .d button {
+    color: red;
+    margin: 0 0 0 10px;
+}
+.books .d button:hover{
+   
+    color: white;
+}

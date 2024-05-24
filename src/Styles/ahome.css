@@ -1,0 +1,77 @@
+.ahome {
+    height: 89vh;
+    width: 100%;
+    background-color: #E4C4FF;
+    display: flex;
+}
+
+.ahome .right img {
+    height: 60vh;
+    width: 60%;
+    position: absolute;
+    right: 0;
+    top: 30vh;
+
+}
+
+.ahome h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    letter-spacing: 0.1cap;
+    margin: 20vh 10vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;
+}
+
+.ahome .card{
+    position: absolute;
+    bottom: 10vh;
+    left: 10vh;
+    height: 30vh;
+    width: 20vh;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.ahome .card1{
+    position: absolute;
+    bottom: 10vh;
+    left: 35vh;
+    height: 30vh;
+    width: 20vh;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.ahome .card2{
+    position: absolute;
+    bottom: 10vh;
+    left: 60vh;
+    height: 30vh;
+    width: 20vh;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.ahome .card img,.ahome .card1 img,.ahome .card2 img{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.ahome .card img:hover, .ahome .card1 img:hover, .ahome .card2 img:hover{
+    
+    transform: scale(1.12);
+}

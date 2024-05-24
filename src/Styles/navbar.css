@@ -1,0 +1,57 @@
+.navbar .header {
+    border: none;
+    height: 11vh;
+    width: 100%;
+    background-color: rgba(13, 7, 128, 0.785);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar .logo {
+    width: 30%;
+    display: flex;
+    justify-content: start;
+}
+
+.navbar .logo h1 {
+    font-size: 20px;
+    text-align: justify;
+    margin: 2vh 0;
+    text-transform: capitalize;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar .logo img {
+    height: 8vh;
+    width: 15vh;
+    margin: 1vh 0 1vh 10vh;
+    cursor: pointer;
+}
+
+.navbar .lists {
+    width: 70%;
+    height: 10vh;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.navbar ul a{
+    height: 10vh;
+    margin: 3vh 0;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: darkorange;
+    font-family: sans-serif;
+    text-decoration: overline;
+}

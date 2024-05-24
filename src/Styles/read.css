@@ -1,0 +1,147 @@
+.read-page {
+    height: 89vh;
+    width: 100%;
+    background: #E4C4FF;
+    display: flex;
+}
+
+.read-page .left {
+    height: 89vh;
+    width: 70%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.read-page .left .box {
+    height: 80vh;
+    width: 90%;
+    border-radius: 0px;
+    background: #ffffff;
+    box-shadow: 7px 7px 14px #b5b5b5,
+        -7px -7px 14px #ffffff;
+}
+
+.read-page .right {
+    height: 89vh;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.read-page .right .box {
+    height: 50vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    background: #E4C4FF;
+    box-shadow: inset 5px 5px 8px #bda3d4,
+        inset -5px -5px 8px #ffe5ff;
+}
+
+.read-page .right img {
+    height: 90%;
+    width: 80%;
+}
+
+.read-page p {
+    margin: 5vh 10vh 2vh 10vh;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: blue;
+}
+
+.read-page p span {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.read-page h3 {
+    margin: 2vh 10vh;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: blue;
+    font-family: sans-serif;
+}
+
+.read-page h3 span {
+    color: black;
+}
+
+.read-page .short button {
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    height: 7vh;
+    width: 80%;
+    display: block;
+    border:  none;
+    margin: 5vh auto;
+    border-radius: 30px;
+    box-shadow: 20px 20px 19px #c7c7c7,
+        -20px -20px 19px #ffffff;
+
+}
+
+.read-page .long .para {
+    height: 25vh;
+    overflow-y: auto;
+}
+
+.read-page .long button {
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    height: 7vh;
+    width: 80%;
+    display: block;
+    border: none;
+    margin: 5vh auto;
+    border-radius: 30px;
+    box-shadow: 20px 20px 19px #c7c7c7,
+        -20px -20px 19px #ffffff;
+}
+
+.read-page .short .para,
+.read-page .long .para {
+    font-size: 20px;
+    text-align: justify;
+    font-size: 25px;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.read-page .short button:hover,
+.read-page .long button:hover {
+    background-color: #bda3d4;
+    color: white;
+    border: none;
+}
+
+.read-page .back{
+    position: fixed;
+    bottom: 10vh;
+    right: 35vh; 
+}
+.read-page .back button{
+    width: 15vh;
+    height: 5vh;
+    background-color: transparent;
+    border-radius: 50px;
+    color: red;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    transition: all 0.7s;
+}
+.read-page .back button:hover{
+    transform: scale(1.08);
+    background-color: orange;
+    color: white;
+
+}

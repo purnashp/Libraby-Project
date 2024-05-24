@@ -1,0 +1,151 @@
+.landing-page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.landing-page .left {
+    height: 100vh;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-page .left h1 {
+    position: absolute;
+    left: 40vh;
+    bottom: 8vh;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: blue;
+    margin: 10vh 5vh;
+    letter-spacing: 0.1cm;
+    font-weight: bolder;
+}
+
+.landing-page .left p {
+    position: absolute;
+    bottom: 7vh;
+    left: 15vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+}
+
+.landing-page .left h1 span {
+    color: orange;
+
+}
+
+.landing-page .right {
+    height: 100vh;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-page .right img {
+    height: 70vh;
+    width: 80%;
+}
+
+.landing-page .left .form {
+    border: solid 1px white;
+    width: 60vh;
+    height: 70vh;
+   
+    background: #ffffff;
+    box-shadow: inset 5px 5px 11px #ababab,
+        inset -5px -5px 11px #ffffff;
+}
+
+.landing-page .box {
+    height: 10vh;
+    width: 90%;
+    border: solid 1px white;
+    margin: 10px 10px;
+    border-radius: 50px;
+
+}
+
+.landing-page .box .left-btn,
+.landing-page .box .right-btn {
+    height: 100%;
+    width: 50%;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    border: none;
+    color: blue;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 146px;
+    background: #ffffff;
+    box-shadow: 5px 5px 11px #ababab,
+        -5px -5px 11px #ffffff;
+    transition: all 0.5s;
+}
+
+.landing-page .box .right-btn {
+    background-color: orange;
+    color: white;
+    margin-left: 50%;
+}
+
+.landing-page form {
+    height: 30vh;
+    width: 100%;
+    margin-top: 10vh;
+
+}
+
+.landing-page input,
+.landing-page form button {
+    display: block;
+    margin: 5vh auto;
+    height: 7vh;
+}
+
+.landing-page form input{
+    width: 80%;
+    outline: none;
+    border: none;
+    border-bottom: solid 2px blue;
+    color: orange;
+    font-size: 18px;
+    border-radius: 0px;
+    background: white;
+    padding-left: 15PX;
+    box-shadow: inset 5px 5px 6px #afafaf6d,
+        inset -5px -5px 6px #ffffff8d;
+}
+
+.landing-page form input:focus {
+    border-bottom: solid 3px orange;
+    border-radius: 50px;
+}
+
+.landing-page form button {
+    width: 40%;
+    border-radius: 30px;
+    border-radius: 0px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 5px 5px 6px #afafaf,
+        -5px -5px 6px #ffffff;
+    border: none;
+    color: blue;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.landing-page form button:active{
+    transform: scale(1.02);
+}
+.landing-page form h3{
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+}

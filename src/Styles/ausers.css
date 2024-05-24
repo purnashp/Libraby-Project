@@ -1,0 +1,48 @@
+.users{
+  
+    width: 100%;
+    
+}
+.users .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.users table{
+    border: solid 1px black;
+    margin: 10vh 0 0 0;
+    width: 180vh;
+    text-align: center;
+    background: rgba(238, 130, 238, 0.235);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+cursor: pointer;
+    
+
+}
+
+.users table th{
+    font-size: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+    color: rgb(22, 4, 137);
+}
+.users table tbody{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.users table td{
+    padding: 15px 0;
+}
+.users table button{
+    color: red;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.users table button:active{
+    transform: scale(1.3);
+}

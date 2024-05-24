@@ -1,0 +1,74 @@
+.addbooks {
+    height: 89vh;
+    width: 100%;
+    background: #E4C4FF;
+}
+
+.addbooks h1 {
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+    padding: 5vh 10vh;
+}
+
+.addbooks .form {
+    height: 70vh;
+    width: 120vh;
+    margin: 0px auto;
+    border-radius: 0px;
+    background: #e4c4ff;
+    box-shadow: inset 7px 7px 14px #c9ace0,
+        inset -7px -7px 14px #ffdcff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addbooks input {
+    display: block;
+    width: 90vh;
+    height: 7vh;
+    margin: 10px 0;
+    padding: 0 20px;
+    outline: none;
+    border: none;
+
+    border-bottom: solid 3px blue;
+    border-radius: 0px;
+    text-transform: capitalize;
+    background: #ffffff4f;
+    box-shadow: inset 6px 6px 12px #cccccc7f,
+        inset -6px -6px 12px #ffffff49;
+}
+
+.addbooks input::placeholder {
+    font-size: 15px;
+}
+
+.addbooks input:focus {
+    border-radius: 50px;
+    border: solid 2px orange;
+    color: royalblue;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.addbooks button {
+    width: 20vh;
+    height: 6vh;
+    margin: 3vh 0 0 75vh;
+    border: none;
+    font-size: 20px;
+    color: blue;
+    text-transform: capitalize;
+    border-radius: 0px;
+    background: linear-gradient(145deg, #ffebff, #e6c6e6);
+    box-shadow: 5px 5px 10px #dbbddb,
+        -5px -5px 10px #fffbff69;
+
+}
+
+.addbooks button:active {
+  transform: scale(1.06);
+}
